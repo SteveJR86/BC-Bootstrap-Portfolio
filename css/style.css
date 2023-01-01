@@ -2,9 +2,30 @@ img {
   max-width: 100%;
 }
 
+/* Style to stop cards being styled as links */
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Style to produce hover effect on card images */
+
+.card-img-top {
+  opacity: 70%;
+}
+
+.card-img-top:hover {
+  opacity: 100%;
+}
+
+/* Styling to give space between rows */
+
 .row {
   margin-bottom: 1rem;
 }
+
+/* Styling to give space between buttons at bottom of page */
 
 .bottom-link {
   margin: 0.5rem;
