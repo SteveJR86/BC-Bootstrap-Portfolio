@@ -17,4 +17,4 @@ however it also highlighted some of the difficulties in then trying to customise
 
 ## Screenshot
 
-![Finished Website]()
+![Finished Website](./images/screenshot.png)

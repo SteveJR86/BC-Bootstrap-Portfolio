@@ -2,13 +2,28 @@ img {
   max-width: 100%;
 }
 
-.imgHeight {
-  max-height: 400px;
-}
-
 .row {
   margin-bottom: 1rem;
 }
+
+.bottom-link {
+  margin: 0.5rem;
+}
+
+/* box shadow around buttons */
+
+.btn-primary {
+  box-shadow: 1px 1px 10px #007bff;
+}
+
+/* style to remove hover effect on phone number button as it doesn't link to anything */
+
+.disabled-btn:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Media Query to put space between cards in smaller screen sizes */
 
 @media only screen and (max-width: 767.9px) {
   .col-md-6:first-of-type {
